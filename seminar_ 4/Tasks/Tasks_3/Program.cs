@@ -10,7 +10,7 @@ internal class Program
 
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.Write($"Введите число для элемента {i + 1}: ");
+                Console.Write($"Введите элемента масива {i + 1}: ");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
@@ -20,10 +20,10 @@ internal class Program
 
         int[] numbers = Array();
 
-        Console.WriteLine("Элементы массива:");
+        Console.WriteLine(" Массив:");
         for (int i = 0; i < numbers.Length; i++)
         {
-            Console.Write($"{numbers[i] + "," + " + "}");
+            Console.Write($"{numbers[i] + "," + "  "}");
         }
     }
 }
